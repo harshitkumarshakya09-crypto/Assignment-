@@ -1,48 +1,58 @@
-👋 Hi, I'm Harshit Kumar Shakya!
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=HARSHIT%20SHAKYA&fontSize=48&color=0:00DBDE,100:FC00FF&stroke=00DBDE&animation=fadeIn&fontColor=ffffff&desc=BUILDING%20INTELLIGENT%20SYSTEMS&descSize=16&descAlignY=72" width="100%" alt="Animated neon header"/><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2500&pause=700&color=00DBDE&center=true&vCenter=true&width=700&lines=Aspiring+MLOps+Engineer+%F0%9F%A4%96;AI+%2B+Automation+%2B+Cloud+%E2%9A%A1;Learning.+Building.+Deploying.+%F0%9F%9A%80;Turning+Models+Into+Real+Solutions." alt="Animated introduction"/><br><img src="https://komarev.com/ghpvc/?username=harshitkumarshakya09-crypto&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile views"/></div>---
 
-<div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=4F46E5&center=true&vCenter=true&width=600&lines=B.Tech+AI+Student+%F0%9F%8E%93;Aspiring+Web+Developer+%F0%9F%92%BB;Learning+Java+%26+DSA+%E2%98%95;Exploring+AI+%26+Machine+Learning+%F0%9F%A4%96" alt="Typing SVG" /></div>---
+"whoami" — About Me
 
-🚀 About Me
+class HarshitShakya:
+    def __init__(self):
+        self.role = "Aspiring MLOps Engineer"
+        self.education = "B.Tech AI | First Year"
+        self.university = "Invertis University, Bareilly"
+        self.interests = [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "MLOps & Automation",
+            "Software Development"
+        ]
+        self.mindset = "Learn → Build → Deploy → Improve"
 
-- 🎓 First-year B.Tech Artificial Intelligence student
-- 🏫 Studying at Invertis University, Bareilly
-- 💻 Learning web development and programming
-- 🌱 Currently improving my skills in Java and DSA
-- 🤖 Interested in Artificial Intelligence and Machine Learning
-- 🎯 Goal: Build useful projects and become a skilled developer
-- ⚡ Fun fact: Every expert was once a beginner!
+    def say_hello(self):
+        return "Building my future, one project at a time!"
 
----
+me = HarshitShakya()
+print(me.say_hello())
 
-🛠️ Tech Stack
+⚡ Tech Arsenal
 
-<div align="center"><img src="https://skillicons.dev/icons?i=html,css,javascript,java,git,github,vscode&theme=dark" alt="My Tech Stack" /></div>---
+<div align="center"><img src="https://skillicons.dev/icons?i=html,css,javascript,java,python,git,github,vscode&theme=dark" alt="Technologies and tools"/></div>Currently exploring: Python, machine learning fundamentals, model deployment, automation, and cloud technologies.
 
-📊 GitHub Stats
+🧠 The Mission
 
-<div align="center"><img height="165" src="https://github-readme-stats.vercel.app/api?username=harshitkumarshakya09-crypto&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" /><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshitkumarshakya09-crypto&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" /><br><img src="https://streak-stats.demolab.com?user=harshitkumarshakya09-crypto&theme=tokyonight&hide_border=true" alt="GitHub Streak" /></div>---
+<div align="center">Focus| Mission
+🤖 AI / ML| Learn how intelligent models work
+⚙️ MLOps| Understand model deployment and automation
+💻 Development| Build practical projects
+🌐 Open Source| Learn by collaborating and contributing
 
-📈 Contribution Graph
+</div>📊 GitHub Analytics
 
-<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=harshitkumarshakya09-crypto&theme=tokyo-night&hide_border=true" alt="Contribution Graph" /></div>---
+<div align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=harshitkumarshakya09-crypto&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00DBDE&icon_color=FC00FF" alt="GitHub statistics"/><img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshitkumarshakya09-crypto&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00DBDE" alt="Most used languages"/></div>🌌 Contribution Universe
 
-🎯 My Goals
+<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=harshitkumarshakya09-crypto&bg_color=0d1117&color=00dbde&line=fc00ff&point=ffffff&area=true&hide_border=true&custom_title=My%20Coding%20Journey" width="100%" alt="GitHub contribution activity"/></div>🚀 Roadmap
 
-- [x] Start learning HTML and CSS
-- [x] Begin learning JavaScript
-- [ ] Improve Java and DSA skills
-- [ ] Build more web development projects
-- [ ] Explore AI and Machine Learning
-- [ ] Contribute to open-source projects
+- [x] Begin my coding journey
+- [x] Learn HTML, CSS and JavaScript fundamentals
+- [ ] Strengthen Java and DSA
+- [ ] Learn Python for AI and ML
+- [ ] Build machine learning projects
+- [ ] Learn Docker, CI/CD and cloud deployment
+- [ ] Build and deploy an end-to-end ML pipeline
 
----
-
-🤝 Connect With Me
+🔗 Find Me on GitHub
 
 <div align="center"><a href="https://github.com/harshitkumarshakya09-crypto">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a></div>---
+  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Code-181717?style=for-the-badge&logo=github" alt="Visit GitHub"/>
+</a><br><br>
 
-<div align="center">💡 "Consistency beats perfection. Keep learning, keep building!"
+I don't just want to build models. I want to learn how to take them from experiments to production.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Animated Footer" /></div># Assignment-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FC00FF,100:00DBDE&height=120&section=footer" width="100%" alt="Animated neon footer"/></div>
