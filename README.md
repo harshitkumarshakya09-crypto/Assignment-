@@ -1,17 +1,22 @@
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=HARSHIT%20SHAKYA&fontSize=48&color=0:00DBDE,100:FC00FF&stroke=00DBDE&animation=fadeIn&fontColor=ffffff&desc=BUILDING%20INTELLIGENT%20SYSTEMS&descSize=16&descAlignY=72" width="100%" alt="Animated neon header"/><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2500&pause=700&color=00DBDE&center=true&vCenter=true&width=700&lines=Aspiring+MLOps+Engineer+%F0%9F%A4%96;AI+%2B+Automation+%2B+Cloud+%E2%9A%A1;Learning.+Building.+Deploying.+%F0%9F%9A%80;Turning+Models+Into+Real+Solutions." alt="Animated introduction"/><br><img src="https://komarev.com/ghpvc/?username=harshitkumarshakya09-crypto&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile views"/></div>---
 
-"whoami" — About Me
+🧑‍💻 About Me
 
-class HarshitShakya:
-    def __init__(self):
-        self.role = "Aspiring MLOps Engineer"
-        self.education = "B.Tech AI | First Year"
-        self.university = "Invertis University, Bareilly"
-        self.interests = [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "MLOps & Automation",
-            "Software Development"
+Hey there! I'm Harshit Kumar Shakya 👋
+
+🎓 A first-year B.Tech Artificial Intelligence student with a passion for technology and problem-solving.
+
+🤖 An Aspiring MLOps Engineer on a journey to explore the world of AI, Machine Learning, automation, and cloud technologies.
+
+💻 I enjoy turning ideas into code, building projects, and learning how software works behind the scenes.
+
+🌱 Currently learning programming, strengthening my development skills, and exploring how machine learning models can be deployed into real-world applications.
+
+⚡ I believe in learning by building, improving through mistakes, and staying consistent every day.
+
+🎯 My Goal: To bridge the gap between Machine Learning and Production by building reliable, scalable, and intelligent systems.
+
+«"Dream big. Code consistently. Build things that matter." 🚀»
         ]
         self.mindset = "Learn → Build → Deploy → Improve"
 
