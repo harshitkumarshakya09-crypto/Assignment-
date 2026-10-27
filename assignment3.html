@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 - Profile Cards</title>
+
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        /* 6.4 - Sticky Top Bar */
+        .top-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: #172554;
+            color: white;
+            padding: 18px 25px;
+            text-align: center;
+            box-shadow: 0 3px 10px #0002;
+        }
+
+        .top-bar h1 {
+            font-size: 24px;
+        }
+
+        .top-bar p {
+            font-size: 13px;
+            color: #cbd5e1;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        /* 6.2 - Common Profile Card */
+        .profile-card {
+            width: 300px;
+            padding: 25px;
+            margin: 10px;
+            border: 2px solid #cbd5e1;
+            border-radius: 18px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 6px 18px #0001;
+        }
+
+        /* Round Avatar */
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            outline: 3px solid #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h2 {
+            margin-bottom: 5px;
+        }
+
+        .role {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        /* 6.3 - Scrollable Bio */
+        .bio {
+            height: 120px;
+            overflow: auto;
+            padding: 12px;
+            margin-top: 15px;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            text-align: left;
+            background-color: #f8fafc;
+        }
+
+        .skills {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 4px 2px;
+            border-radius: 20px;
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            font-size: 12px;
+        }
+
+        /* First Colour Version */
+        .blue-card {
+            border-color: #2563eb;
+        }
+
+        .blue-card .avatar {
+            outline-color: #2563eb;
+        }
+
+        .blue-card .tag {
+            background-color: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        /* Second Colour Version */
+        .purple-card {
+            border-color: #9333ea;
+            background-color: #faf5ff;
+        }
+
+        .purple-card .avatar {
+            outline-color: #9333ea;
+        }
+
+        .purple-card .bio {
+            background-color: #f3e8ff;
+            border-color: #d8b4fe;
+        }
+
+        .purple-card .tag {
+            background-color: #f3e8ff;
+            color: #7e22ce;
+        }
+
+        /* 6.4 - Fixed Floating Button */
+        .add-button {
+            position: fixed;
+            right: 25px;
+            bottom: 25px;
+            z-index: 200;
+            width: 60px;
+            height: 60px;
+            border: none;
+            border-radius: 50%;
+            background-color: #2563eb;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px #0003;
+        }
+
+        .add-button:hover {
+            background-color: #1d4ed8;
+            transform: scale(1.08);
+        }
+
+        /* 6.5 - Responsive Layout */
+        @media (max-width: 650px) {
+            .container {
+                padding: 10px;
+            }
+
+            .profile-card {
+                width: 100%;
+                max-width: 340px;
+                margin: 5px;
+            }
+
+            .top-bar h1 {
+                font-size: 20px;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px;
+            color: #64748b;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sticky Top Bar -->
+    <header class="top-bar">
+        <h1>My Profile Cards</h1>
+        <p>Week 6 Assignment | Box Model, Display & Positioning</p>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Meet Our Developers</h2>
+
+        <section class="profile-container">
+
+            <!-- Profile Card 1 -->
+            <article class="profile-card blue-card">
+                <img
+                    class="avatar"
+                    src="https://i.pravatar.cc/200?img=12"
+                    alt="Profile photo of Alex"
+                >
+
+                <h2>Alex Morgan</h2>
+                <p class="role">Frontend Developer</p>
+
+                <div class="bio">
+                    <h3>About Me</h3>
+                    <p>
+                        Hello! I am Alex, a passionate web development
+                        learner. I enjoy creating clean and responsive
+                        websites using HTML and CSS.
+                    </p>
+                    <p>
+                        I am currently learning CSS Box Model, Flexbox,
+                        positioning, and responsive web design. My goal
+                        is to build useful websites and improve my coding
+                        skills every day.
+                    </p>
+                </div>
+
+                <div class="skills">
+                    <strong>Skills</strong><br>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Flexbox</span>
+                </div>
+            </article>
+
+            <!-- Profile Card 2 -->
+            <article class="profile-card purple-card">
+                <img
+                    class="avatar"
+                    src="https://i.pravatar.cc/200?img=47"
+                    alt="Profile photo of Sarah"
+                >
+
+                <h2>Sarah Wilson</h2>
+                <p class="role">UI Designer</p>
+
+                <div class="bio">
+                    <h3>About Me</h3>
+                    <p>
+                        Hi! I am Sarah, a creative student who loves
+                        designing simple and attractive user interfaces.
+                        I believe a good website should look beautiful
+                        and be easy to use.
+                    </p>
+                    <p>
+                        I enjoy experimenting with colours, typography,
+                        spacing, borders, and layouts. I am improving
+                        my design skills by building small projects
+                        and learning new CSS techniques.
+                    </p>
+                </div>
+
+                <div class="skills">
+                    <strong>Skills</strong><br>
+                    <span class="tag">CSS</span>
+                    <span class="tag">UI Design</span>
+                    <span class="tag">Layout</span>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Fixed Floating Button -->
+    <button class="add-button" type="button" aria-label="Add profile">
+        +
+    </button>
+
+    <footer class="footer">
+        <p>Week 6 Practice Project | Made with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
